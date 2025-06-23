@@ -14,7 +14,6 @@
 git clone https://github.com/yourname/specterstack
 cd specterstack
 docker-compose up --build
-exit
 ```
    
 ## 🚀 Windows
