@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { postMessage } from '../api/messageApi';
+import { Link } from 'react-router-dom';
 
 function Message() {
   const [message, setMessage] = useState('');
@@ -47,6 +48,7 @@ function Message() {
         />
       </label>
       <button type="submit" disabled={isSubmitting}>Post</button>
+      <Link to="/"><button>Home</button></Link>
       <p>{status}</p>
     </form>
   );
