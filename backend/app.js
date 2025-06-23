@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const messageRoutes = require('./routes/message.routes');
 const errorHandler = require('./middlewares/errorHandler');
+const helmet = require('helmet'); // Security headers
 
 const app = express();
 
@@ -11,6 +12,8 @@ app.use(cors());
 
 // Middleware to parse JSON request bodies
 app.use(express.json());
+
+app.use(helmet()); //Security headers
 
 // Register the message-related routes under /api/messages
 app.use('/api/messages', messageRoutes);
