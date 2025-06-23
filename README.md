@@ -10,11 +10,11 @@
 ### Steps:
 
 ## 🚀 Linux
-   ```  
+ <pre><code> ```bash
    git clone https://github.com/yourname/specterstack 
    cd specterstack 
    docker-compose up --build 
-    exit```
+   exit ``` </code></pre>
    
 ## 🚀 Windows
 1. CDownload Docker(https://www.docker.com/get-started/)
