@@ -11,7 +11,7 @@
 
 ## 🚀 Linux
 ```bash
-git clone https://github.com/yourname/specterstack
+git clone https://github.com/avukovic98/Guestbook-app
 cd specterstack
 docker-compose up --build
 ```
