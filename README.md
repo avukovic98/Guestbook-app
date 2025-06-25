@@ -12,7 +12,7 @@
 ## 🚀 Linux
 ```bash
 git clone https://github.com/avukovic98/Guestbook-app
-cd specterstack
+cd Guestbook-app
 docker-compose up --build
 ```
    
